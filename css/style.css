@@ -23,6 +23,7 @@
     font-weight: 600;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
  
 .card h4{
@@ -32,6 +33,7 @@
     color: #7E8392;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .card-location{
     display: flex;
@@ -40,15 +42,14 @@
  
 .card-info{
     padding: 8px 12px 18px 12px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
 }
-
-         
+.card-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
 .circle{
-    height: 10px;
     width: 10px;
-    border-radius: 10px;
-    background-color: #029094;
+    
 }
